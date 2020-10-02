@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+body {
+  width: fit-content;
+  background: #1C1A19;
+}
+
+.wrapper {
+  width: 100vw;
+  max-width: 1400px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ###############################################-----HEADER----############################################### */
+
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background: #3E3C3C;
+}
+
+/* ###############################################-----BODY----############################################### */
+
+.logo-desktop {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 1017px;
+  top: 302px;
+  background: #DB4747;
+  mix-blend-mode: lighten;
+  border-radius: 50%
+}
+
+.number-one {
+  position: absolute;
+  width: 82px;
+  height: 150px;
+  left: 447px;
+  top: 210px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 150px;
+  /* identical to box height */
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.hello {
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 547px;
+  top: 302px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.name {
+  position: absolute;
+  width: 484px;
+  height: 220px;
+  left: 547px;
+  top: 326px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* or 110px */
+  color: #FFFFFF;
+}
+
+.my_word {
+  position: absolute;
+  width: 564px;
+  height: 108px;
+  left: 547px;
+  top: 586px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.social-text {
+position: absolute;
+width: 113px;
+height: 21px;
+left: 547px;
+top: 737px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #DB4747;
+}
+
+.line {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 680px;
+  top: 747px;
+  border: 1px solid #FFFFFF;
+}
+
+.icons-div {
+  position: absolute;
+  width: 304px;
+  height: 92.33px;
+  left: 767px;
+  top: 666.67px;
+}
+
+.fa {
+  height: 23.00034523010254px;
+  width: 24px;
+  left: 0px;
+  top: 0.5px;
+  border-radius: 0px;
+}
