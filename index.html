@@ -18,19 +18,21 @@
   </head>
 <body>
   <div class="wrapper">
-    <div class="header">
-      <div class="d-flex justify-content-around">
-        <div>
-          <a href="/" class="p-2 bd-highlight">Portfolio</a>
-        </div>
-        <div>
-          <a href="/" class="p-2 bd-highlight">About</a>
-        </div>
-        <div>
-          <a href="/" class="p-2 bd-highlight">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+      <span class="navbar-brand text-light logo-navbar"></span>
+      <a class="navbar-brand text-light" href="#">Bruna Gobi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link text-light" href="#two">Home</a>
+          <a class="nav-item nav-link text-light" href="#two">Projects</a>
+          <a class="nav-item nav-link text-light" href="/">About</a>
         </div>
       </div>
-    </div>
+    </nav>
     <div>
       <p class="number-one">01</p>
       <p class="hello">Hello, I am</p>
@@ -51,6 +53,11 @@
           <a href="/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
+    </div>
+    <div>
+      <p class="number-two" id="two">02</p>
+      <p class="portfolio">Portfolio</p>
+      <p class="projects">Projects</p>
     </div>
   </div>
 </body>

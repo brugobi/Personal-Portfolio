@@ -4,6 +4,7 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  /*scroll-behavior: smooth;*/
 }
 
 body {
@@ -22,14 +23,21 @@ body {
 /* ###############################################-----HEADER----############################################### */
 
 .header {
-  position: absolute;
+  position: fixed;
   width: 1440px;
   height: 72px;
   left: 0px;
   top: 0px;
-  background: #3E3C3C;
+  background: #3E3C3C !important;
 }
 
+.logo-navbar {
+  width: 9px;
+  height: 1px;
+  background: #DB4747;
+  mix-blend-mode: lighten;
+  border-radius: 50%
+}
 /* ###############################################-----BODY----############################################### */
 
 .logo-desktop {
@@ -60,12 +68,44 @@ body {
   opacity: 0.2;
 }
 
+.number-two {
+  position: absolute;
+  width: 116px;
+  height: 80px;
+  left: 169px;
+  top: 909px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 80%;
+  /* identical to box height, or 80px */
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
 .hello {
   position: absolute;
   width: 504px;
   height: 24px;
   left: 547px;
   top: 302px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.portfolio {
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 286px;
+  top: 960px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -87,6 +127,21 @@ body {
   font-size: 110px;
   line-height: 100%;
   /* or 110px */
+  color: #FFFFFF;
+}
+
+.projects {
+  position: absolute;
+  width: 430px;
+  height: 110px;
+  left: 286px;
+  top: 984px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* identical to box height, or 110px */
   color: #FFFFFF;
 }
 
