@@ -18,23 +18,34 @@
   </head>
 <body>
   <div class="wrapper">
+    <div class="pos-f-t .d-none .d-sm-block .d-md-none mobile-header">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4">
+          <a class="nav-item nav-link text-light" href="#one">Home</a>
+          <a class="nav-item nav-link text-light" href="#two">Projects</a>
+          <a class="nav-item nav-link text-light" href="/">About</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light header">
       <span class="navbar-brand text-light logo-navbar"></span>
       <a class="navbar-brand text-light" href="#">Bruna Gobi</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link text-light" href="#two">Home</a>
+          <a class="nav-item nav-link text-light" href="#one">Home</a>
           <a class="nav-item nav-link text-light" href="#two">Projects</a>
           <a class="nav-item nav-link text-light" href="/">About</a>
         </div>
       </div>
     </nav>
     <div>
-      <p class="number-one">01</p>
+      <p class="number-one" id="one">01</p>
       <p class="hello">Hello, I am</p>
       <p class="name">Bruna Gobi</p>
       <p class="my_word">Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and
@@ -42,7 +53,29 @@
       <p href="/" class="logo-desktop"></p>
       <p class="social-text">Social Media</p>
       <p class="line"></p>
-      <div class="row d-flex align-items-start justify-content-around icons-div">
+      <div class="row d-flex align-items-start justify-content-around icons-div-desktop">
+        <div class="col align-self-end">
+          <a href="/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col align-self-end">
+          <a href="/"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col align-self-end">
+          <a href="/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="number-one-mobile" id="one">01</p>
+      <p class="hello-mobile">Hello, I am</p>
+      <p class="name-mobile">Bruna Gobi</p>
+      <p class="my_word-mobile">Hello! I am a software developer! I can help you build a product, feature or
+        website. Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+      <p href="/" class="logo-mobile"></p>
+      <p class="social-text-mobile">Social Media</p>
+      <p class="line-mobile"></p>
+      <div class="row d-flex align-items-start justify-content-around icons-div-mobile">
         <div class="col align-self-end">
           <a href="/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
         </div>
@@ -56,8 +89,13 @@
     </div>
     <div>
       <p class="number-two" id="two">02</p>
-      <p class="portfolio">Portfolio</p>
-      <p class="projects">Projects</p>
+      <p class="portfolio-desktop">Portfolio</p>
+      <p class="projects-desktop">Projects</p>
+    </div>
+    <div>
+      <p class="number-two-mobile" id="two">02</p>
+      <p class="portfolio-mobile">Portfolio</p>
+      <p class="projects-mobile">Projects</p>
     </div>
   </div>
 </body>

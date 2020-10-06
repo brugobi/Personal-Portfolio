@@ -22,6 +22,17 @@ body {
 
 /* ###############################################-----HEADER----############################################### */
 
+.mobile-header {
+  position: fixed;
+  min-width: 360px;
+  max-width: 640px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background: #3E3C3C !important;
+  font-family: 'Poppins', sans-serif;
+}
+
 .header {
   position: fixed;
   width: 1440px;
@@ -48,6 +59,18 @@ body {
   top: 302px;
   background: #DB4747;
   mix-blend-mode: lighten;
+  border-radius: 50%;
+}
+
+.logo-mobile {
+  position: absolute;
+  display: none;
+  width: 50px;
+  height: 50px;
+  left: 255px;
+  top: 76px;
+  background: #DB4747;
+  mix-blend-mode: lighten;
   border-radius: 50%
 }
 
@@ -68,6 +91,25 @@ body {
   opacity: 0.2;
 }
 
+.number-one-mobile {
+  position: absolute;
+  display: none;
+  width: 41px;
+  height: 75px;
+  left: 16px;
+  top: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+
 .number-two {
   position: absolute;
   width: 116px;
@@ -81,6 +123,23 @@ body {
   line-height: 80%;
   /* identical to box height, or 80px */
   text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.number-two-mobile {
+  position: absolute;
+  display: none;
+  width: 58px;
+  height: 75px;
+  left: 16px;
+  top: 551px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
   color: #FFFFFF;
   opacity: 0.2;
 }
@@ -100,17 +159,18 @@ body {
   color: #FFFFFF;
 }
 
-.portfolio {
+.hello-mobile {
   position: absolute;
-  width: 504px;
-  height: 24px;
-  left: 286px;
-  top: 960px;
-  font-family: Poppins;
+  display: none;
+  width: 289px;
+  height: 18px;
+  left: 16px;
+  top: 110px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 18px;
   /* identical to box height */
   color: #FFFFFF;
 }
@@ -130,7 +190,54 @@ body {
   color: #FFFFFF;
 }
 
-.projects {
+.name-mobile {
+  position: absolute;
+  display: none;
+  width: 288px;
+  height: 100px;
+  left: 16px;
+  top: 130px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
+  color: #FFFFFF;
+}
+
+.portfolio-desktop {
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 286px;
+  top: 960px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.portfolio-mobile {
+  position: absolute;
+  display: none;
+  width: 288px;
+  height: 18px;
+  left: 16px;
+  top: 613px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.projects-desktop {
   position: absolute;
   width: 430px;
   height: 110px;
@@ -145,6 +252,22 @@ body {
   color: #FFFFFF;
 }
 
+.projects-mobile {
+  position: absolute;
+  display: none;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 631px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+  /* identical to box height, or 50px */
+  color: #FFFFFF;
+}
+
 .my_word {
   position: absolute;
   width: 564px;
@@ -156,6 +279,21 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
+  color: #FFFFFF;
+}
+
+.my_word-mobile {
+  position: absolute;
+  display: none;
+  width: 288px;
+  height: 90px;
+  left: 16px;
+  top: 243px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
   color: #FFFFFF;
 }
 
@@ -174,6 +312,22 @@ line-height: 21px;
 color: #DB4747;
 }
 
+.social-text-mobile {
+  position: absolute;
+  display: none;
+  width: 113px;
+  height: 21px;
+  left: 16px;
+  top: 386px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #DB4747;
+}
+
 .line {
   position: absolute;
   width: 70px;
@@ -183,7 +337,17 @@ color: #DB4747;
   border: 1px solid #FFFFFF;
 }
 
-.icons-div {
+.line-mobile {
+  display: none;
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 16px;
+  top: 427px;
+  border: 1px solid #FFFFFF;
+}
+
+.icons-div-desktop {
   position: absolute;
   width: 304px;
   height: 92.33px;
@@ -191,10 +355,152 @@ color: #DB4747;
   top: 666.67px;
 }
 
+.icons-div-mobile {
+  position: absolute;
+  display: none;
+  width: 304px;
+  height: 92.33px;
+  left: 10px;
+  top: 400px;
+}
+
 .fa {
   height: 23.00034523010254px;
   width: 24px;
-  left: 0px;
-  top: 0.5px;
   border-radius: 0px;
+}
+
+.icons-div-desktop a:link {
+  color: white;
+}
+
+.icons-div-desktop a:visited {
+  color: white;
+}
+
+.icons-div-mobile a:link {
+  color: white;
+  display: none;
+}
+
+.icons-div-mobile a:visited {
+  color: white;
+  display: none;
+}
+
+/* ###############################################-----FOOTER----############################################### */
+
+/* ###############################################-----MEDIA QUERY----############################################### */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (max-width: 767px) {
+  .header {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+
+  .line-mobile {
+    display: block;
+  }
+
+  .number-one-mobile {
+    display: block;
+  }
+
+  .hello-mobile {
+    display: block;
+  }
+
+  .name-mobile {
+    display: block;
+  }
+
+  .my_word-mobile {
+    display: block;
+  }
+
+  .social-text-mobile {
+    display: block;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .number-one {
+    display: none;
+  }
+
+  .number-two {
+    display: none;
+  }
+
+  .number-two-mobile {
+    display: block;
+  }
+
+  .hello {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .my_word {
+    display: none;
+  }
+
+  .social-text {
+    display: none;
+  }
+
+  .icons-div-mobile {
+    display: block;
+  }
+
+  .icons-div-desktop {
+    display: none;
+  }
+
+  .icons-div-desktop a:link {
+    color: white;
+    display: none;
+}
+
+  .icons-div-desktop a:visited {
+    color: white;
+    display: none;
+  }
+
+  .icons-div-mobile a:link {
+    display: block;
+}
+
+  .icons-div-mobile a:visited {
+    display: block;
+  }
+
+  .portfolio-desktop {
+    display: none;
+  }
+
+  .portfolio-mobile {
+    display: block;
+  }
+
+  .projects-desktop {
+    display: none;
+  }
+
+  .projects-mobile {
+    display: block;
+  }
 }
