@@ -388,6 +388,28 @@ color: #DB4747;
   display: none;
 }
 
+.project-one {
+  position: absolute;
+  max-width: 1440px;
+  top: 1154px;
+  background-color: #DB4747;
+}
+
+.image-1 {
+  height: 279px;
+  background-color: black;
+}
+
+.image-2 {
+  height: 279px;
+  background-color: orange;
+}
+
+.project {
+  height: 558px;
+  background-color: #FFFFFF;
+}
+
 /* ###############################################-----FOOTER----############################################### */
 
 /* ###############################################-----MEDIA QUERY----############################################### */
