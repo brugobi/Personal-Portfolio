@@ -299,7 +299,7 @@ width: 113px;
 height: 21px;
 left: 547px;
 top: 737px;
-font-family: Roboto;
+font-family: 'Playfair Display', serif;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -315,7 +315,7 @@ color: #DB4747;
   height: 21px;
   left: 16px;
   top: 386px;
-  font-family: Roboto;
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -447,6 +447,12 @@ button {
 
 .button-links a:visited {
   color: white;
+}
+
+.project-content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 /* ###############################################-----FOOTER----############################################### */
 
