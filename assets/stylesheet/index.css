@@ -80,7 +80,7 @@ body {
   height: 150px;
   left: 447px;
   top: 210px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 100px;
@@ -98,7 +98,7 @@ body {
   height: 75px;
   left: 16px;
   top: 50px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
@@ -116,7 +116,7 @@ body {
   height: 80px;
   left: 169px;
   top: 909px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 100px;
@@ -134,7 +134,7 @@ body {
   height: 75px;
   left: 16px;
   top: 551px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
@@ -150,7 +150,7 @@ body {
   height: 24px;
   left: 547px;
   top: 302px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -181,7 +181,7 @@ body {
   height: 220px;
   left: 547px;
   top: 326px;
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 110px;
@@ -197,7 +197,7 @@ body {
   height: 100px;
   left: 16px;
   top: 130px;
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -212,7 +212,7 @@ body {
   height: 24px;
   left: 286px;
   top: 960px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -228,7 +228,7 @@ body {
   height: 18px;
   left: 16px;
   top: 613px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -243,9 +243,7 @@ body {
   height: 110px;
   left: 286px;
   top: 984px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Playfair Display', serif;
   font-size: 110px;
   line-height: 100%;
   /* identical to box height, or 110px */
@@ -259,9 +257,7 @@ body {
   height: 50px;
   left: 16px;
   top: 631px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Playfair Display', serif;
   font-size: 50px;
   line-height: 100%;
   /* identical to box height, or 50px */
@@ -274,7 +270,7 @@ body {
   height: 108px;
   left: 547px;
   top: 586px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -289,7 +285,7 @@ body {
   height: 90px;
   left: 16px;
   top: 243px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -397,19 +393,61 @@ color: #DB4747;
 
 .image-1 {
   height: 279px;
-  background-color: black;
+  background: rgb(109,16,116);
+  background: linear-gradient(90deg, rgba(109,16,116,1) 0%, rgba(13,6,17,1) 0%, rgba(29,66,161,1) 0%, rgba(93,25,149,1) 0%, rgba(8,6,9,1) 0%, rgba(102,9,47,1) 18%, rgba(85,8,38,1) 30%, rgba(16,17,2,1) 100%, rgba(48,154,235,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .image-2 {
   height: 279px;
-  background-color: orange;
+  background: rgb(109,16,116);
+  background: linear-gradient(90deg, rgba(109,16,116,1) 0%, rgba(13,6,17,1) 0%, rgba(93,25,149,1) 0%, rgba(8,6,9,1) 0%, rgba(29,66,161,1) 0%, rgba(14,1,6,1) 0%, rgba(11,36,106,1) 23%, rgba(1,3,14,1) 100%, rgba(9,40,102,1) 100%, rgba(1,1,17,1) 100%, rgba(48,154,235,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .project {
   height: 558px;
-  background-color: #FFFFFF;
 }
 
+.project-name {
+  width: 711px;
+  height: 48px;
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.tools p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+button {
+  width: 212px;
+  height: 51px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #DB4747;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+}
+
+.trip {
+  margin-top: 12px;
+  margin-left: 50px;
+}
+
+.button-links a:link {
+  color: white;
+}
+
+.button-links a:visited {
+  color: white;
+}
 /* ###############################################-----FOOTER----############################################### */
 
 /* ###############################################-----MEDIA QUERY----############################################### */
