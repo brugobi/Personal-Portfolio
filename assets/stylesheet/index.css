@@ -623,6 +623,11 @@ color: #DB4747;
     display: none;
   }
 
+  .div-button-mobile {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+
   .project-mobile {
     padding-left: 50px;
   }
@@ -660,7 +665,8 @@ color: #DB4747;
   }
   
   .limit {
-    display:inline-flex;
+    width: 75vw;
+    display: inline-block;
   }
 
   .tools-desktop {
