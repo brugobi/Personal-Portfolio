@@ -411,7 +411,7 @@ color: #DB4747;
 .project-two {
   position: absolute;
   max-width: 1440px;
-  top: 1870px;
+  top: 1868px;
 }
 
 .image-1 {
@@ -673,9 +673,13 @@ color: #DB4747;
     display: block;
   }
 
+  .project-one-mobile {
+    top: 720px;
+  }
+
   .project-two-mobile {
     position: absolute;
-    top: 100px;
+    top: 1565px;
   }
 
   .project-content-mobile {
