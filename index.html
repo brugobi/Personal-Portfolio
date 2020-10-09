@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- private CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/stylesheet/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap"
-      rel="stylesheet">
-    <title>Bruna's Portfolio</title>
-  </head>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- private CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/stylesheet/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Bruna's Portfolio</title>
+</head>
+
 <body>
   <div class="wrapper">
     <div class="pos-f-t .d-none .d-sm-block .d-md-none mobile-header">
@@ -48,8 +52,9 @@
       <p class="number-one" id="one">01</p>
       <p class="hello">Hello, I am</p>
       <p class="name">Bruna Gobi</p>
-      <p class="my_word">Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and
-      experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+      <p class="my_word">Hello! I am a software developer! I can help you build a product, feature or website. Look
+        through some of my work and
+        experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
       <p href="/" class="logo-desktop"></p>
       <p class="social-text">Social Media</p>
       <p class="line"></p>
@@ -97,47 +102,77 @@
       <p class="portfolio-mobile">Portfolio</p>
       <p class="projects-mobile">Projects</p>
     </div>
-    <div class="container-fluid w-100 project-one">
+    <div class="project-one project-one-mobile">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="row">
-            <div class="col-md-12 image-1">
-              <img class= "trip" src="./assets/images/trip.png" alt="Trip" style="height: 250px;">
+            <div class="col-md-12 image-1 image-one-mobile">
+              <img class="trip trip-mobile" src="./assets/images/trip.png" alt="Trip">
             </div>
           </div>
-          <div class="row">
+          <div class="row image-two-mobile">
             <div class="col-md-12 image-2">
-              <img class="trip" src="./assets/images/category.png" alt="Trip" style="height: 250px;">
+              <img class="trip" src="./assets/images/category.png" alt="Trip">
             </div>
           </div>
         </div>
-        <div class="col project" style="background-image: url('./assets/images/project.png');">
+        <div class="col project project-mobile" style="background-image: url('./assets/images/project.png');">
           <div class="project-name">
             <p>Trip Tips Canada</p>
           </div>
-          <div class="row" style="margin-top: 40px;">
+          <div class="project-name-mobile">
+            <p>Trip Tips Canada</p>
+          </div>
+          <div class="row tools-desktop" style="margin-top: 40px;">
             <div class="col-md-6 tools">
               <div class="d-flex justify-content-between">
                 <p>Ruby on Rails</p>
-                <p>HTML:erb</p>
+                <p>HTML/erb</p>
                 <p>CSS</p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 project-content">
-            <p>This is a Desktop version of a blog where the user can create articles to share informations about traveling in Canada.</p>
-            <p>Features</p>
-            <ul>
-              <li>Registration & Login;</li>
-              <li>Ability to create categories;</li>
-              <li>Ability to create articles that belong to multiple categories and contain images;</li>
-              <li>Ability to vote/downvote articles.</li>
-            </ul>    
+          <div class="container-fluid">
+            <div class="row tools-mobile" style="margin-top: 40px;">
+              <div class="col-md-6 tools">
+                <div class="d-flex flex-column justify-content-between">
+                  <p>Ruby on Rails</p>
+                  <p>HTML/erb</p>
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 project-content project-content-mobile">
+
+              <div class="d-flex flex-column limit">
+                <p class="text-truncate">This is a Desktop version of a blog where the user can create articles to share informations about
+                  traveling in
+                  Canada.</p>
+                <p>Features</p>
+                <ul>
+                  <li>Registration & Login;</li>
+                  <li>Ability to create categories;</li>
+                  <li>Ability to create articles that belong to multiple categories and contain images;</li>
+                  <li>Ability to vote/downvote articles.</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6" style="margin-top: 50px;">
+
+          <div class="col-md-6 buttons-desktop" style="margin-top: 50px;">
             <div class="d-flex justify-content-between button-links">
-              <button><a href="https://github.com/brugobi/RoR--Capstone">See this project</a><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></button>
-              <button><a href="https://trip-tips-canada.herokuapp.com/">Live version</a><i class="fa fa-external-link-square fa-lg" aria-hidden="true"></i></button>
+              <button class="button-desktop"><a href="https://github.com/brugobi/RoR--Capstone">See source&nbsp;</a><i
+                  class="fa fa-github-square fa-lg" aria-hidden="true"></i></button>
+              <button class="button-desktop"><a href="https://trip-tips-canada.herokuapp.com/">See live&nbsp;</a><i
+                  class="fa fa-external-link-square fa-lg" aria-hidden="true"></i></button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-between button-links">
+              <button class="button-mobile"><a href="https://github.com/brugobi/RoR--Capstone">See source&nbsp;</a><i
+                  class="fa fa-github-square fa-lg" aria-hidden="true"></i></button>&nbsp;&nbsp;
+              <button class="button-mobile"><a href="https://trip-tips-canada.herokuapp.com/">See live&nbsp;</a><i
+                  class="fa fa-external-link-square fa-lg" aria-hidden="true"></i></button>
             </div>
           </div>
         </div>
@@ -145,4 +180,5 @@
     </div>
   </div>
 </body>
+
 </html>
