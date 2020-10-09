@@ -60,7 +60,7 @@ body {
   width: 94px;
   height: 94px;
   left: 1017px;
-  top: 302px;
+  top: 202px;
   background: #DB4747;
   mix-blend-mode: lighten;
   border-radius: 50%;
@@ -83,7 +83,7 @@ body {
   width: 82px;
   height: 150px;
   left: 447px;
-  top: 210px;
+  top: 110px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -119,7 +119,7 @@ body {
   width: 116px;
   height: 80px;
   left: 169px;
-  top: 909px;
+  top: 1050px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -129,6 +129,20 @@ body {
   text-align: right;
   color: #FFFFFF;
   opacity: 0.2;
+}
+
+.number-one-up {
+  position: absolute;
+  top: 7px;
+}
+
+.number-two-up {
+  position: absolute;
+  width: 116px;
+  height: 80px;
+  left: 169px;
+  top: 909px;
+  text-align: right;
 }
 
 .number-two-mobile {
@@ -153,7 +167,7 @@ body {
   width: 504px;
   height: 24px;
   left: 547px;
-  top: 302px;
+  top: 202px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -184,7 +198,7 @@ body {
   width: 484px;
   height: 220px;
   left: 547px;
-  top: 326px;
+  top: 226px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: normal;
@@ -215,7 +229,7 @@ body {
   width: 504px;
   height: 24px;
   left: 286px;
-  top: 960px;
+  top: 1106px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -246,7 +260,7 @@ body {
   width: 430px;
   height: 110px;
   left: 286px;
-  top: 984px;
+  top: 1138px;
   font-family: 'Playfair Display', serif;
   font-size: 110px;
   line-height: 100%;
@@ -273,7 +287,7 @@ body {
   width: 564px;
   height: 108px;
   left: 547px;
-  top: 586px;
+  top: 486px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -302,7 +316,7 @@ position: absolute;
 width: 113px;
 height: 21px;
 left: 547px;
-top: 737px;
+top: 637px;
 font-family: 'Playfair Display', serif;
 font-style: normal;
 font-weight: 500;
@@ -333,7 +347,7 @@ color: #DB4747;
   width: 70px;
   height: 0px;
   left: 680px;
-  top: 747px;
+  top: 647px;
   border: 1px solid #FFFFFF;
 }
 
@@ -352,7 +366,7 @@ color: #DB4747;
   width: 304px;
   height: 92.33px;
   left: 767px;
-  top: 666.67px;
+  top: 566.67px;
 }
 
 .icons-div-mobile {
@@ -391,13 +405,13 @@ color: #DB4747;
 .project-one {
   position: absolute;
   max-width: 1440px;
-  top: 1154px;
+  top: 1304px;
 }
 
 .project-two {
   position: absolute;
   max-width: 1440px;
-  top: 1714px;
+  top: 1870px;
 }
 
 .image-1 {
@@ -661,7 +675,7 @@ color: #DB4747;
 
   .project-two-mobile {
     position: absolute;
-    top: 701px;
+    top: 100px;
   }
 
   .project-content-mobile {
