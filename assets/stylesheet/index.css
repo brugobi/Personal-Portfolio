@@ -414,11 +414,29 @@ color: #DB4747;
   top: 1868px;
 }
 
+.project-three {
+  position: absolute;
+  max-width: 1440px;
+  top: 2430px;
+}
+
+.project-four {
+  position: absolute;
+  max-width: 1440px;
+  top: 2992px;
+}
+
 .image-1 {
   width: 480px;
   height: 279px;
   background: rgb(109,16,116);
   background: linear-gradient(90deg, rgba(109,16,116,1) 0%, rgba(13,6,17,1) 0%, rgba(29,66,161,1) 0%, rgba(93,25,149,1) 0%, rgba(8,6,9,1) 0%, rgba(102,9,47,1) 18%, rgba(85,8,38,1) 30%, rgba(16,17,2,1) 100%, rgba(48,154,235,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.image-1-tic {
+  width: 480px;
+  height: 279px;
+  background-image: url(../images/board.png);
 }
 
 .trip {
