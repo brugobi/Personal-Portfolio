@@ -692,12 +692,23 @@ color: #DB4747;
   }
 
   .project-one-mobile {
+    position: absolute;
     top: 720px;
   }
 
   .project-two-mobile {
     position: absolute;
     top: 1565px;
+  }
+
+  .project-three-mobile {
+    position: absolute;
+    top: 2508px;
+  }
+
+  .project-four-mobile {
+    position: absolute;
+    top: 3330px;
   }
 
   .project-content-mobile {
