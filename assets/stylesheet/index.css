@@ -537,6 +537,12 @@ color: #DB4747;
   font-size: 16px;
   color: #FFFFFF;
 }
+
+.about {
+  position: absolute;
+  max-width: 1440px;
+  top: 3560px;
+}
 /* ###############################################-----FOOTER----############################################### */
 
 /* ###############################################-----MEDIA QUERY----############################################### */
@@ -728,5 +734,11 @@ color: #DB4747;
 
   .tools-mobile {
     display: block;
+  }
+
+  .about-mobile {
+    position: absolute;
+    max-width: 1440px;
+    top: 4235px;
   }
 }
