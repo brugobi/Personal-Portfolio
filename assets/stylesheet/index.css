@@ -162,6 +162,19 @@ body {
   opacity: 0.2;
 }
 
+.number-three {
+  width: 117px;
+  height: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 80%;
+  /* identical to box height, or 80px */
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
 .hello {
   position: absolute;
   width: 504px;
@@ -239,6 +252,18 @@ body {
   color: #FFFFFF;
 }
 
+.portfolio-three {
+  width: 504px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
 .portfolio-mobile {
   position: absolute;
   display: none;
@@ -282,6 +307,18 @@ body {
   color: #FFFFFF;
 }
 
+.about-title {
+  width: 474px;
+  height: 110px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* identical to box height, or 110px */
+  color: #FFFFFF;
+}
+
 .my_word {
   position: absolute;
   width: 564px;
@@ -308,6 +345,17 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
+  color: #FFFFFF;
+}
+
+.about-content {
+  width: 564px;
+  height: 108px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
   color: #FFFFFF;
 }
 
@@ -382,6 +430,84 @@ color: #DB4747;
   height: 23.00034523010254px;
   width: 24px;
   border-radius: 0px;
+}
+
+.skills {
+  background: #212123;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.0525em;
+  color: #FFFFFF;
+  padding: 30px;
+  background-clip: content-box;
+}
+
+.skills li, ul, p {
+  margin-left: 10px;
+}
+
+.skills p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.icon-div-about {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.icon-div-about-heart {
+  background-color: #DB4747;
+  opacity: 0.5;
+}
+
+.icon-div-about-light {
+  background: #F19D2A;
+  opacity: 0.5;
+}
+
+.icon-div-about-hash {
+  background: #22B07D;
+  opacity: 0.5;
+}
+
+.icon-div-about-cogs {
+  background-color: rgba(55, 106, 237, 1);
+  opacity: 0.5;
+}
+
+.fa-hashtag {
+  color: #5bf116;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.fa-lightbulb-o {
+  color: yellow;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.fa-heart-o {
+  color : red;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+
+.fa-cogs {
+  color: rgb(78, 217, 236);
+  padding-top: 10px;
+  padding-left: 9px;
 }
 
 .icons-div-desktop a:link {
@@ -504,6 +630,10 @@ color: #DB4747;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   border: none;
+}
+
+.button-desktop a:link {
+  color: white;
 }
 
 .button-mobile {
