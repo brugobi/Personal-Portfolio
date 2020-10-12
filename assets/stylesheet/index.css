@@ -51,7 +51,7 @@ body {
   height: 1px;
   background: #DB4747;
   mix-blend-mode: lighten;
-  border-radius: 50%
+  border-radius: 50%;
 }
 /* ###############################################-----BODY----############################################### */
 
@@ -317,6 +317,7 @@ body {
   line-height: 100%;
   /* identical to box height, or 110px */
   color: #FFFFFF;
+  margin-top: 50px;
 }
 
 .my_word {
@@ -357,21 +358,22 @@ body {
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
+  margin-top: 50px;
 }
 
 .social-text {
-position: absolute;
-width: 113px;
-height: 21px;
-left: 547px;
-top: 637px;
-font-family: 'Playfair Display', serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-color: #DB4747;
+  position: absolute;
+  width: 113px;
+  height: 21px;
+  left: 547px;
+  top: 637px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #DB4747;
 }
 
 .social-text-mobile {
@@ -673,7 +675,35 @@ color: #DB4747;
   max-width: 1440px;
   top: 3560px;
 }
+
+.button-resume {
+  margin-top: 25px;
+}
+
 /* ###############################################-----FOOTER----############################################### */
+
+.contact {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #DB4747;
+  padding: 15px;
+}
+
+.page-footer {
+  margin-top: 70px;
+}
+
+.footer-copyright a {
+  padding: 7px;
+}
+
+.footer-copyright a:link {
+  color: white;
+}
+
+.footer-copyright a:visited {
+  color: white;
+}
 
 /* ###############################################-----MEDIA QUERY----############################################### */
 
