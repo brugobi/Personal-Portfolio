@@ -21,7 +21,7 @@ My personal portfolio
 ## Live Version
 
 
-You can click on this [link]()
+You can click on this [link](https://hardcore-noyce-90aae7.netlify.app)
 
 
 ## Getting Started
