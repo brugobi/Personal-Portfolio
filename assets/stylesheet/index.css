@@ -26,25 +26,12 @@ body {
 
 /* ###############################################-----HEADER----############################################### */
 
-.mobile-header {
-  position: fixed;
-  min-width: 360px;
-  max-width: 640px;
-  height: 60px;
-  left: 0px;
-  top: 0px;
-  background: #3e3c3c !important;
-  font-family: "Poppins", sans-serif;
-  z-index: 9999;
-}
-
 .header {
   position: fixed;
   width: 1440px;
-  height: 72px;
   left: 0px;
   top: 0px;
-  background: #3e3c3c !important;
+  background: #3e3c3c;
   z-index: 9999;
 }
 
@@ -60,6 +47,11 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
 }
+
+.fa-snowflake-o {
+  color: #db4747;
+}
+
 /* ###############################################-----BODY----############################################### */
 
 .logo-desktop {
@@ -743,10 +735,6 @@ p {
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (max-width: 767px) {
-  .header {
-    display: none;
-  }
-
   .logo-mobile {
     display: block;
   }
